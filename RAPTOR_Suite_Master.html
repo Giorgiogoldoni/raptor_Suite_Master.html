@@ -469,6 +469,13 @@ nav::-webkit-scrollbar-thumb { background:var(--border); border-radius:2px; }
       <span class="nav-icon">💰</span> Wealth Meridian
     </div>
 
+    <div class="nav-item" onclick="loadTool(this)"
+         data-url="https://giorgiogoldoni.github.io/stoxx600/"
+         data-title="STOXX 600"
+         data-id="stoxx600">
+      <span class="nav-icon">🇪🇺</span> STOXX 600
+    </div>
+
     <div class="nav-section">RISORSE</div>
 
     <div class="nav-item" onclick="loadTool(this)"
@@ -512,7 +519,8 @@ nav::-webkit-scrollbar-thumb { background:var(--border); border-radius:2px; }
     <div class="home-stats">
       <div class="stat-pill"><strong>700</strong>ETF Monitorati</div>
       <div class="stat-pill"><strong>538</strong>ETF Leva</div>
-      <div class="stat-pill"><strong>10</strong>Moduli attivi</div>
+      <div class="stat-pill"><strong>600</strong>Titoli STOXX</div>
+      <div class="stat-pill"><strong>11</strong>Moduli attivi</div>
       <div class="stat-pill"><strong>Yahoo · Stooq</strong>Fonti dati</div>
     </div>
 
@@ -614,13 +622,23 @@ nav::-webkit-scrollbar-thumb { background:var(--border); border-radius:2px; }
         <div class="card-btn">APRI →</div>
       </div>
 
-      <div class="card" style="--card-accent:#a78bfa" onclick="loadCard('wealth')">
+      <div class="card" style="--card-accent:#d4aa48" onclick="loadCard('wealth')">
         <div class="card-top">
           <div class="card-icon">💰</div>
           <div class="card-num"><strong>—</strong><span>&nbsp;</span></div>
         </div>
         <h3>Wealth Meridian</h3>
-        <p>Analisi bisogni · Pianificazione patrimoniale · In sviluppo</p>
+        <p>Gestione patrimoniale · IPS · SAA/TAA · PAC · Carico cliente · Export PDF</p>
+        <div class="card-btn">APRI →</div>
+      </div>
+
+      <div class="card" style="--card-accent:#3b82f6" onclick="loadCard('stoxx600')">
+        <div class="card-top">
+          <div class="card-icon">🇪🇺</div>
+          <div class="card-num"><strong>600</strong><span>TITOLI</span></div>
+        </div>
+        <h3>STOXX 600</h3>
+        <p>Analisi indice europeo · Filtri settoriali · Segnali operativi</p>
         <div class="card-btn">APRI →</div>
       </div>
 
